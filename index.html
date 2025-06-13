@@ -42,5 +42,52 @@
             </ul>
         </nav>
      </header>
+
+     <main>
+        <section id="home" class="hero section">
+            <div class="hero-content">
+                <h1>Olá, eu sou <span class="highlight">Gabriel Mauss</span></h1>
+                <p class="subtitle">Estudante de Engenharia de Software</p>
+                <div class="-buttons">
+                    <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                    <a href="assets/pdf/curriculo" download class="btn btn-secondary">Baixar CV</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Texto sobre mim e minha trajetoria</p>
+                    <div class="skills">
+                        <h3>Minhas Habilidades</h3>
+                        <div class="skills-container" id="skills-container"></div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/profile" alt="Foto de Perfil" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="projects-controls">
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="web">WEB</button>
+                    <button class="filter-btn" data-filter="mobile">MOBILE</button>
+                    <button class="filter-btn" data-filter="design">DESIGN</button>
+                </div>
+                <div class="projects-search-container">
+                    <input type="text" class="projects-search" placeholder="Buscar projetos...">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+            </div>
+        </section>
+     </main>
 </body>
 </html>
