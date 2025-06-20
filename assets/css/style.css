@@ -43,7 +43,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  cursor: ;
+  cursor: none;
 }
 
 html {
@@ -66,36 +66,21 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  z-index: -1;
-  background-color: var(--background);
-  opacity: 0.5;
+  z-index: -1; /* Garante que fique atrás do conteúdo */
+  background-color: transparent; /* Remove fundo branco */
 }
 
 /* ===== CURSOR PERSONALIZADO ===== */
 .cursor {
   width: 20px;
   height: 20px;
-  border: 2px solid var(--primary);
+  border: 2px solid var(--primary-dark);
   border-radius: var(--radius-full);
   position: fixed;
   transform: translate(-50%, -50%);
   pointer-events: none;
   transition: transform 0.1s ease, background 0.1s ease;
   z-index: 9999;
-  mix-blend-mode: difference;
-}
-
-.cursor-follower {
-  width: 10px;
-  height: 10px;
-  background-color: var(--primary);
-  border-radius: var(--radius-full);
-  position: fixed;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  transition: all 0.3s ease;
-  z-index: 9998;
-  mix-blend-mode: difference;
 }
 
 .cursor.active {
@@ -532,6 +517,7 @@ nav ul li a:hover::after {
   transition: all 0.3s ease;
   box-shadow: 0 5px 15px var(--shadow);
   border-left: 4px solid var(--primary);
+  text-decoration: none;
 }
 
 .repo-card:hover {
@@ -615,10 +601,10 @@ nav ul li a:hover::after {
 }
 
 .info-item i {
-  font-size: 1.2rem;
-  color: var(--primary);
-  width: 30px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  color: var(--text-secondary);
 }
 
 .social-links {
@@ -649,12 +635,10 @@ nav ul li a:hover::after {
 
 .contact-form {
   flex: 1;
-  min-width: 300px;
-  max-width: 500px;
 }
 
 .form-group {
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-md)
 }
 
 .form-group label {
