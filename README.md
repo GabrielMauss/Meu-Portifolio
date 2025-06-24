@@ -1,5 +1,9 @@
 # Meu-Portifolio
 
-https://gabrielmauss.github.io/Meu-Portifolio/
+:Portfólio Pessoal
 
-link para meu portifolio hospedado no GitPages...
+-Objetivo: Criar um portfólio online que exibe seus projetos, habilidades e informações de contato.
+
+-Tecnologias: HTML, CSS, JavaScript.
+
+-Desafio: Implementar uma navegação fluida, animações suaves e responsividade.
