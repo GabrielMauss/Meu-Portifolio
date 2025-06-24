@@ -1,6 +1,6 @@
 # Meu-Portifolio
 
-:Portfólio Pessoal
+Portfólio Pessoal:
 
 -Objetivo: Criar um portfólio online que exibe seus projetos, habilidades e informações de contato.
 
