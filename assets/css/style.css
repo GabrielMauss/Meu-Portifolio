@@ -1,40 +1,40 @@
-:root{
-    --primary: #7e57c2;
-    --primary-light: #b085f5;
-    --primary-dark: #4d2c91;
-    --primary-transparent: rgba(126, 87, 194, 0.1);
+:root {
+  --primary: #7e57c2;
+  --primary-light: #b085f5;
+  --primary-dark: #4d2c91;
+  --primary-transparent: rgba(126, 87, 194, 0.1);
 
-    --text: #7e57c2;
-    --text-light: #ffffff;
-    --text-secondary: #b085f5;
-    --background: #FAF0E6;
-    --card-bg: #fafafa;
-    --shadow: rgba(126, 87, 194, 0.1);
+  --text: #7e57c2;
+  --text-light: #ffffff;
+  --text-secondary: #b085f5;
+  --background: #faf0e6;
+  --card-bg: #fafafa;
+  --shadow: rgba(126, 87, 194, 0.1);
 
-    --space-xs: 0.5rem;
-    --space-sm: 1rem;
-    --space-md: 2rem;
-    --space-lg: 3rem;
-    --space-xl: 4rem;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 3rem;
+  --space-xl: 4rem;
 
-    --radius-sm: 5px;
-    --radius-md: 10px;
-    --radius-lg: 20px;
-    --radius-full: 50%;
+  --radius-sm: 5px;
+  --radius-md: 10px;
+  --radius-lg: 20px;
+  --radius-full: 50%;
 }
 
-.dark-mode{
-    --background: #151922;
-    --card-bg: #f6f1f4;
+.dark-mode {
+  --background: #151922;
+  --card-bg: #f6f1f4;
 
-    --primary: #7e57c2;
-    --primary-light: #b085f5;
-    --primary-dark: #4d2c91;
+  --primary: #7e57c2;
+  --primary-light: #b085f5;
+  --primary-dark: #4d2c91;
 
-    --text: #7e57c2;
-    --text-secondary: #b085f5;
+  --text: #7e57c2;
+  --text-secondary: #b085f5;
 
-    --shadow: rgba(126, 87, 194, 0.1);
+  --shadow: rgba(126, 87, 194, 0.1);
 }
 
 /* Reset básico */
@@ -384,7 +384,8 @@ nav ul li a:hover::after {
   font-weight: 500;
 }
 
-.filter-btn.active, .filter-btn:hover {
+.filter-btn.active,
+.filter-btn:hover {
   background-color: var(--primary);
   color: white;
 }
@@ -633,7 +634,6 @@ nav ul li a:hover::after {
   box-shadow: 0 5px 15px var(--shadow);
 }
 
-
 .contact-form {
   max-width: 300px;
   margin: 50px auto;
@@ -644,8 +644,8 @@ nav ul li a:hover::after {
   margin-bottom: 15px;
 }
 
-input[type="text"],
-input[type="email"],
+input[type='text'],
+input[type='email'],
 textarea {
   width: 100%;
   padding: 10px;
@@ -772,9 +772,9 @@ footer {
     align-items: flex-start;
   }
 
-  .projects-search-container {
-    max-width: 100%;
-  }
+.projects-search-container {
+  max-width: 100px;
+}
 
   .contact-methods {
     flex-direction: column;

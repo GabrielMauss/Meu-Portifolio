@@ -2,34 +2,34 @@ document.addEventListener('DOMContentLoaded', () => {
     // Dados das habilidades DIRETAMENTE no JS
     const skillsData = [
         {
-            name: "JavaScript",
-            level: 90,
-            color: "#f1e05a",
-            icon: "fab fa-js"
+            name: "Python",
+            level: 60,
+            color: "#005b8f",
+            icon: "fab fa-python"
         },
         {
             name: "HTML5",
-            level: 95,
+            level: 25,
             color: "#e34c26",
             icon: "fab fa-html5"
         },
         {
             name: "CSS3",
-            level: 85,
+            level: 20,
             color: "#2965f1",
             icon: "fab fa-css3-alt"
         },
         {
-            name: "React",
-            level: 80,
-            color: "#61dafb",
-            icon: "fab fa-react"
+            name: "C",
+            level: 20,
+            color: "#4184e1",
+            icon: "fa-solid fa-code"
         },
         {
-            name: "Node.js",
+            name: "JavScript",
             level: 75,
-            color: "#68a063",
-            icon: "fab fa-node-js"
+            color: "#ffd700",
+            icon: "fab fa-js"
         }
     ];
 

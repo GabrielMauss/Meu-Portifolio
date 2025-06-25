@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             // Filtra e exibe os repositórios
-            const filteredRepos = repos.filter(repo => !repo.fork); // Remove forks
+            const filteredRepos = repos.filter(repo => !repo.fork && repo.name !== "GabrielMauss"); // Remove forks
             displayRepositories(filteredRepos.slice(0, 6)); // Limita a 6 repositórios
         })
         .catch(error => {

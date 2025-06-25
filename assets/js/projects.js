@@ -3,21 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const projectsData = [
         {
             id: 1,
-            title: "Landing Page Moderna",
-            description: "Uma landing page responsiva com animações CSS.",
+            title: "To-Do List (Lista de Tarefas)",
+            description: "Uma simples de lista de tarefas.",
             image: "assets/images/projects/project1.png",
             tags: ["web", "design"],
             technologies: ["HTML", "CSS", "JavaScript"],
-            demoUrl: "#",
-            codeUrl: "#"
-        },
-        {
-            id: 2,
-            title: "App de Tarefas",
-            description: "Aplicativo mobile com sincronização em nuvem.",
-            image: "assets/images/projects/projeto2.jpg",
-            tags: ["mobile", "backend"],
-            technologies: ["React Native", "Node.js"],
             demoUrl: "#",
             codeUrl: "#"
         }
